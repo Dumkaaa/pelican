@@ -50,6 +50,7 @@
 		'flight' => $flight,
 		'user' => Yii::$app->user,
 	]);
+	$response = new \pelican\services\Response;
 	$service->query($request, $response);
 	//проверяем результат
 	if ($response->getErrorCode() === null) {
