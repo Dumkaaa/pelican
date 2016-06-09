@@ -1,0 +1,21 @@
+{
+	"name": "marvin255/pelican",
+	"description": "Сервисы Пеликан",
+	"type": "library",
+	"keywords": ["php"],
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.2"
+	},
+	"autoload": {
+		"psr-4": { "pelican\\services\\": "src/" }
+	},
+	"require": {
+	},
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/marvin255/pelican"
+		}
+	]
+}
